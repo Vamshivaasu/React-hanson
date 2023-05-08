@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #1e90ff;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1e90ff;
+  color: white;
+}
+
+.entries {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.entries div {
+  margin: 10px;
+  padding: 10px;
+  background-color: #f0f8ff;
+  border-radius: 5px;
+  text-align: left;
+}
